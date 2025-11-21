@@ -358,6 +358,19 @@ const degrees = {
         "⚡Applied scientific thinking and problem-solving in collaborative environments, honing skills transferable to data science—such as hypothesis testing, data visualization, and analytical reporting.",
       ],
       website_link: "https://www.nyit.edu",
+    //{
+    //  title: "MITx — Massachusetts Institute of Technology",
+    //  subtitle: "MicroMasters in Statistics & Data Science",
+    //  logo_path: "MITx.jpg",
+   //   alt_name: "MITx",
+   //   duration: "2025 - 2026",
+   //   descriptions: [
+    //    "⚡Earned the MITx MicroMasters credential in Statistics and Data Science, completing rigorous graduate-level coursework across Probability, Statistical Inference, Machine Learning, and Data Analysis in Social Sciences.",
+    //    "⚡Built advanced quantitative skills using modern data science methodologies—covering supervised/unsupervised learning, causal inference, Bayesian modeling, experimentation, and large-scale data workflows.",
+    //    "⚡Applied statistical thinking to real-world social science problems, developing hands-on expertise in modeling human behavior, analyzing policy impacts, and extracting insights from complex datasets.",
+    //    "⚡Completed a comprehensive proctored capstone exam demonstrating mastery of statistical theory, computational techniques, and end-to-end data analysis."
+    //  ],
+   //   website_link: "https://www.indiana.edu/",
     },
   ],
 };
