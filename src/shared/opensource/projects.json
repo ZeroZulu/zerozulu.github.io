@@ -1,21 +1,22 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "R_kgDOQNADIQ",
+      "name": "AI-Games-Collection-Turning-Data-Science-into-Play",
+      "createdAt": "2025-10-31T19:59:02Z",
+      "url": "https://github.com/ZeroZulu/AI-Games-Collection-Turning-Data-Science-into-Play",
+      "description": "A portfolio of interactive machine learning and algorithmic optimization projects demonstrating production-ready data science skills through gamified applications.",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "R_kgDOOG_waw",
+      "name": "IBM-Data-Analyst-Capstone",
+      "createdAt": "2025-03-11T19:38:20Z",
+      "url": "https://github.com/ZeroZulu/IBM-Data-Analyst-Capstone",
+      "description": "Capstone Project",
       "isFork": false,
       "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
         {
           "name": "Jupyter Notebook",
           "iconifyClass": "logos-jupyter"
@@ -23,13 +24,17 @@
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "R_kgDONzV4Qg",
+      "name": "IBM-Data-Science-Capstone",
+      "createdAt": "2025-02-02T22:21:34Z",
+      "url": "https://github.com/ZeroZulu/IBM-Data-Science-Capstone",
+      "description": null,
       "isFork": false,
       "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
         {
           "name": "Python",
           "iconifyClass": "logos-python"
@@ -37,65 +42,17 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "R_kgDOOTFuUA",
+      "name": "Kaggle",
+      "createdAt": "2025-04-03T00:28:47Z",
+      "url": "https://github.com/ZeroZulu/Kaggle",
+      "description": "Kaggle (Projects)",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
         },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
@@ -103,12 +60,12 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
+      "id": "R_kgDOPUVjJQ",
+      "name": "Zer0sandbox-blog",
+      "createdAt": "2025-07-28T19:47:08Z",
+      "url": "https://github.com/ZeroZulu/Zer0sandbox-blog",
+      "description": "✨A static blog template built with Astro. ",
+      "isFork": true,
       "languages": [
         {
           "name": "JavaScript",
@@ -117,6 +74,24 @@
         {
           "name": "CSS",
           "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOQpXKmQ",
+      "name": "NYCResturantHealthInspectionPredictor",
+      "createdAt": "2025-12-15T21:13:07Z",
+      "url": "https://github.com/ZeroZulu/NYCResturantHealthInspectionPredictor",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
         }
       ]
     }
