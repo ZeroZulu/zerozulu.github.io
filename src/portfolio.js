@@ -434,7 +434,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, & Volunteership",
-  description: ".",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -501,7 +501,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: ".",
+  description: "",
   avatar_image_path: "projects_image.svg",
 };
 
