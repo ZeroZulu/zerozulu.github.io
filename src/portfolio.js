@@ -24,7 +24,8 @@ const greeting = {
   nickname: "Zerol0l",
   subTitle:
     "Data Scientist & Analyst fueled by curiosity and impact-using data to solve reals problems, spark better questions, and drive meaingful change.",
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1dmj9YWAJ1QYTg742jSJexftz78cm43U9/view?usp=drive_linkhttps://drive.google.com/file/d/1dmj9YWAJ1QYTg742jSJexftz78cm43U9/view?usp=drive_link",
   portfolio_repository: "https://github.com/ZeroZulu/zerozulu.github.io",
   githubProfile: "https://github.com/ZeroZulu",
 };
