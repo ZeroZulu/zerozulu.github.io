@@ -2,42 +2,19 @@
   "data": [
     {
       "id": "R_kgDOQNADIQ",
-      "name": "AI-Games-Collection-Turning-Data-Science-into-Play",
+      "name": "Games-Collection",
       "createdAt": "2025-10-31T19:59:02Z",
-      "url": "https://github.com/ZeroZulu/AI-Games-Collection-Turning-Data-Science-into-Play",
+      "url": "https://github.com/ZeroZulu/Games-Collection",
       "description": "A portfolio of interactive machine learning and algorithmic optimization projects demonstrating production-ready data science skills through gamified applications.",
       "isFork": false,
-      "languages": []
-    },
-    {
-      "id": "R_kgDOOG_waw",
-      "name": "IBM-Data-Analyst-Capstone",
-      "createdAt": "2025-03-11T19:38:20Z",
-      "url": "https://github.com/ZeroZulu/IBM-Data-Analyst-Capstone",
-      "description": "Capstone Project",
-      "isFork": false,
       "languages": [
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDONzV4Qg",
-      "name": "IBM-Data-Science-Capstone",
-      "createdAt": "2025-02-02T22:21:34Z",
-      "url": "https://github.com/ZeroZulu/IBM-Data-Science-Capstone",
-      "description": null,
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        },
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         }
       ]
     },
@@ -92,6 +69,42 @@
         {
           "name": "Jupyter Notebook",
           "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOQ-fLog",
+      "name": "marketing-incrementality-measurement",
+      "createdAt": "2026-01-21T18:28:18Z",
+      "url": "https://github.com/ZeroZulu/marketing-incrementality-measurement",
+      "description": "Causal inference toolkit for marketing lift measurement using DiD, PSM, and Synthetic Control methods. Includes interactive Streamlit dashboard.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDORO35cg",
+      "name": "pokedeck-builder",
+      "createdAt": "2026-02-12T16:54:40Z",
+      "url": "https://github.com/ZeroZulu/pokedeck-builder",
+      "description": "Pokemon TCG Deck Builder — Build and analyze competitive decks",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
         }
       ]
     }
