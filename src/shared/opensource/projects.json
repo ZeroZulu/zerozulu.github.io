@@ -19,42 +19,6 @@
       ]
     },
     {
-      "id": "R_kgDOOTFuUA",
-      "name": "Kaggle",
-      "createdAt": "2025-04-03T00:28:47Z",
-      "url": "https://github.com/ZeroZulu/Kaggle",
-      "description": "Kaggle (Projects)",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOPUVjJQ",
-      "name": "Zer0sandbox-blog",
-      "createdAt": "2025-07-28T19:47:08Z",
-      "url": "https://github.com/ZeroZulu/Zer0sandbox-blog",
-      "description": "✨A static blog template built with Astro. ",
-      "isFork": true,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
-    },
-    {
       "id": "R_kgDOQpXKmQ",
       "name": "NYCResturantHealthInspectionPredictor",
       "createdAt": "2025-12-15T21:13:07Z",
@@ -91,20 +55,59 @@
       ]
     },
     {
-      "id": "R_kgDORO35cg",
-      "name": "pokedeck-builder",
-      "createdAt": "2026-02-12T16:54:40Z",
-      "url": "https://github.com/ZeroZulu/pokedeck-builder",
-      "description": "Pokemon TCG Deck Builder — Build and analyze competitive decks",
+      "id": "R_kgDORqp--Q",
+      "name": "Adidas-catalogue-2026-Analysis",
+      "createdAt": "2026-03-18T18:21:53Z",
+      "url": "https://github.com/ZeroZulu/Adidas-catalogue-2026-Analysis",
+      "description": "Python · Pandas · Plotly · scikit-learn | 44,888 SKUs · 10 countries · 10 chapters | EDA, pricing analysis, NLP product mining, K-Means clustering, and ML price prediction on the Adidas Global Catalogue 2026 dataset.",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "R_kgDORmZkcQ",
+      "name": "Immune-Cell-Type-Classifier",
+      "createdAt": "2026-03-13T19:09:00Z",
+      "url": "https://github.com/ZeroZulu/Immune-Cell-Type-Classifier",
+      "description": "Classifies 8 human immune cell types from single-cell RNA-seq data using XGBoost (Macro F1 ~0.96). Includes Bayesian hyperparameter tuning, SHAP feature attribution, UMAP visualization, and a Streamlit dashboard.",
       "isFork": false,
       "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDORwjhMQ",
+      "name": "urban-demand-predictor",
+      "createdAt": "2026-03-25T15:06:34Z",
+      "url": "https://github.com/ZeroZulu/urban-demand-predictor",
+      "description": "End-to-end ML pipeline predicting NYC taxi demand by zone using weather, events & economic signals. FastAPI + LightGBM + SHAP + Streamlit. Trained on 28.8M real trips.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
         {
           "name": "HTML",
           "iconifyClass": "logos-html-5"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
         }
       ]
     }
