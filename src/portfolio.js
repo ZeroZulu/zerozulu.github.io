@@ -1,17 +1,17 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: false,
 };
 
 //SEO Related settings
 const seo = {
   title: "Shril's Portfolio",
   description:
-    "Data Scientist & Analyst fueled by curiosity and impact-using data to solve reals problems, spark better questions, and drive meaingful change.",
+    "Data Scientist fueled by curiosity and impact — using data to solve real problems, spark better questions, and drive meaningful change.",
   og: {
-    title: "Shril Patel Portfolio",
+    title: "Shril Patel | Data Scientist",
     type: "website",
     url: "https://zerozulu.github.io",
   },
@@ -23,52 +23,43 @@ const greeting = {
   logo_name: "Shril Patel",
   nickname: "Zerol0l",
   subTitle:
-    "Data Scientist & Analyst fueled by curiosity and impact-using data to solve reals problems, spark better questions, and drive meaingful change.",
+    "Data Scientist fueled by curiosity and impact — using data to solve real problems, spark better questions, and drive meaningful change.",
   resumeLink:
-    "https://drive.google.com/file/d/1dmj9YWAJ1QYTg742jSJexftz78cm43U9/view?usp=drive_linkhttps://drive.google.com/file/d/1dmj9YWAJ1QYTg742jSJexftz78cm43U9/view?usp=drive_link",
+    "https://drive.google.com/file/d/1dmj9YWAJ1QYTg742jSJexftz78cm43U9/view?usp=sharing",
   portfolio_repository: "https://github.com/ZeroZulu/zerozulu.github.io",
   githubProfile: "https://github.com/ZeroZulu",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/ZeroZulu",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/shril-patel-020504284/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
     link: "mailto:zerol0llabz@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
     name: "X-Twitter",
     link: "https://x.com/Zer0Labz",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+    fontAwesomeIcon: "fa-x-twitter",
+    backgroundColor: "#000000",
   },
   {
     name: "dev",
     link: "https://dev.to/zerozulu",
-    fontAwesomeIcon: "fa-dev", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#0a0a0aff", // Reference https://simpleicons.org/?q=instagram
+    fontAwesomeIcon: "fa-dev",
+    backgroundColor: "#0a0a0aff",
   },
 ];
 
@@ -78,10 +69,10 @@ const skills = {
       title: "Data Science & Machine Learning",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Building production ML models—from NLP to time-series forecasting—that solve real business problems",
-        "⚡ Designing automated data pipelines for extraction, transformation, and analysis at scale",
-        "⚡ Statistical modeling and hypothesis testing to validate insights before they hit the boardroom",
-        "⚡ Writing clean, maintainable Python code—because future-you will thank present-you",
+        "⚡ Building production ML pipelines — from fraud detection to time-series demand forecasting — deployed with FastAPI and monitored with Evidently AI",
+        "⚡ Statistical modeling, causal inference (DiD, PSM, Synthetic Control), and hypothesis testing to validate insights before they hit the boardroom",
+        "⚡ Handling real-world data challenges: extreme class imbalance, high-cardinality features, leakage-free cross-validation, and SHAP explainability",
+        "⚡ Writing clean, reproducible Python code with full experiment tracking via MLflow — because future-you will thank present-you",
       ],
       softwareSkills: [
         {
@@ -93,23 +84,8 @@ const skills = {
           },
         },
         {
-          skillName: "Rust",
-          fontAwesomeClassname: "simple-icons:rust",
-          style: {
-            backgroundColor: "transparent",
-            color: "#e43d0bff",
-          },
-        },
-        {
           skillName: "R",
           fontAwesomeClassname: "simple-icons:r",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Numpy",
-          fontAwesomeClassname: "simple-icons:numpy",
           style: {
             backgroundColor: "transparent",
           },
@@ -130,8 +106,16 @@ const skills = {
           },
         },
         {
-          skillName: "TensorFlow",
-          fontAwesomeClassname: "simple-icons:tensorflow",
+          skillName: "XGBoost",
+          fontAwesomeClassname: "simple-icons:xgboost",
+          style: {
+            backgroundColor: "transparent",
+            color: "#017CEE",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "simple-icons:numpy",
           style: {
             backgroundColor: "transparent",
           },
@@ -158,9 +142,9 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Crafting interactive dashboards in Tableau and Power BI that executives actually use",
-        "⚡ Translating complex datasets into visuals that technical and non-technical audiences both get",
-        "⚡ Custom D3.js visualizations when the standard charts won't tell the story",
-        "⚡ Turning data insights into actionable recommendations",
+        "⚡ Translating complex datasets into visuals that technical and non-technical audiences both understand",
+        "⚡ Building live Streamlit apps with SHAP explainability layers and geospatial visualizations",
+        "⚡ Turning data insights into actionable business recommendations with quantified dollar impact",
       ],
       softwareSkills: [
         {
@@ -185,11 +169,10 @@ const skills = {
           },
         },
         {
-          skillName: "D3.js",
-          fontAwesomeClassname: "simple-icons:d3dotjs",
+          skillName: "Streamlit",
+          fontAwesomeClassname: "simple-icons:streamlit",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#FF4B4B",
           },
         },
         {
@@ -202,19 +185,15 @@ const skills = {
       ],
     },
     {
-      title: "Tools & Platforms",
+      title: "MLOps & Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Cloud, containers, databases, and version control—the infrastructure that keeps everything running.",
+        "⚡ Containerizing ML pipelines with Docker and orchestrating multi-service stacks with Docker Compose",
+        "⚡ Serving live model predictions via FastAPI with per-request SHAP explanations at ~15ms latency",
+        "⚡ Tracking experiments, model versions, and hyperparameter tuning runs with MLflow and Optuna",
+        "⚡ Monitoring feature and prediction drift in production using Evidently AI",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -223,17 +202,10 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6b22f5ff",
+            color: "#1488C6",
           },
         },
         {
@@ -244,17 +216,17 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
           style: {
-            color: "#47A248",
+            color: "#009688",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "MLflow",
+          fontAwesomeClassname: "simple-icons:mlflow",
           style: {
-            color: "#1488C6",
+            color: "#0194E2",
           },
         },
         {
@@ -317,28 +289,28 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "New York Institue of Technology",
+      title: "New York Institute of Technology",
       subtitle: "B.Sci. in Biology",
       logo_path: "NYIT_logo.png",
-      alt_name: "New York Institue of Technology",
+      alt_name: "New York Institute of Technology",
       duration: "2010 - 2015",
       descriptions: [
-        "⚡ Built a scientific foundation in Biology—learning to design experiments, analyze data, and draw evidence-based conclusions.",
+        "⚡ Built a scientific foundation in Biology — learning to design experiments, analyze data, and draw evidence-based conclusions.",
         "⚡ Applied Statistics and Mathematics to biological research, developing the quantitative mindset now central to my data science work.",
-        "⚡ Honed hypothesis testing, data visualization, and analytical reporting—skills that translate directly to modern data science.",
+        "⚡ Honed hypothesis testing, data visualization, and analytical reporting — skills that translate directly to modern data science.",
       ],
       website_link: "https://www.nyit.edu",
     },
     {
       title: "Massachusetts Institute of Technology",
-      subtitle: "MicroMasters in Statistics and Data Science",
+      subtitle: "MicroMasters in Statistics and Data Science (In Progress)",
       logo_path: "MITx.jpg",
       alt_name: "Massachusetts Institute of Technology",
       duration: "2025 - 2026",
       descriptions: [
-        "⚡ Completed rigorous MIT coursework in Probability, Machine Learning, and Statistical Analysis—equivalent to on-campus standards.",
-        "⚡ Applied Python-based data science methods to real-world problems, from predictive modeling to time-series analysis.",
-        "⚡ Developed the analytical foundation to transform complex datasets into business insights and data-driven recommendations.",
+        "⚡ Pursuing rigorous MIT coursework in Probability, Machine Learning, and Statistical Analysis — equivalent to on-campus graduate standards.",
+        "⚡ Applying Python-based data science methods to real-world problems, from predictive modeling to time-series analysis.",
+        "⚡ Developing the analytical foundation to transform complex datasets into business insights and data-driven recommendations.",
       ],
       website_link: "https://micromasters.mit.edu/ds/",
     },
@@ -347,6 +319,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "CS50's Intro to AI with Python",
+      subtitle: "- David J. Malan",
+      logo_path: "HX.jpg",
+      certificate_link:
+        "https://certificates.cs50.io/1b948d12-0f1c-42b6-bda2-70d4a865f533.pdf?size=letter",
+      alt_name: "Harvard University",
+      color_code: "#8C151599",
+    },
     {
       title: "CS50's Introduction to Computer Science",
       subtitle: "- David J. Malan",
@@ -357,22 +338,13 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "CS50's Introduction to Artificial Intelligence with Python",
-      subtitle: "- David J. Malan",
-      logo_path: "HX.jpg",
+      title: "Google Advanced Data Analytics",
+      subtitle: "- Google",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://certificates.cs50.io/1b948d12-0f1c-42b6-bda2-70d4a865f533.pdf?size=letter",
-      alt_name: "Harvard University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Python for Everybody",
-      subtitle: "- Charles Severance",
-      logo_path: "U-M_Logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/B46CUH9MQUUD",
-      alt_name: "University of Michigan",
-      color_code: "#f0e116fd",
+        "https://www.coursera.org/account/accomplishments/professional-cert/OXLESP39B9SM",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
     },
     {
       title: "Data Engineering",
@@ -411,22 +383,13 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "Google IT Support",
-      subtitle: "- Google",
-      logo_path: "google_logo.png",
+      title: "Math for ML & Data Science",
+      subtitle: "- DeepLearning.AI",
+      logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/professional-cert/BLBULPCBZU8M",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Google Advanced Data Analytics",
-      subtitle: "- Google",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/professional-cert/OXLESP39B9SM",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://www.coursera.org/account/accomplishments/specialization/T6XZX8O9BYXL",
+      alt_name: "DeepLearning.AI",
+      color_code: "#FF6F0099",
     },
   ],
 };
@@ -434,7 +397,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, & Volunteership",
+  subtitle: "Work & Volunteership",
   description: "",
   header_image_path: "experience.svg",
   sections: [
@@ -443,17 +406,6 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Data Insights & Operations Manager",
-          company: "Commodities Health Food",
-          company_url: "",
-          logo_path: "CommoditiesHealthFood.jpg",
-          duration: "Jan 2016 - 2023",
-          location: "New York, NY, USA",
-          description:
-            "Built Python analytics tools and Tableau dashboards that boosted revenue by 15%, improved customer satisfaction by 10%, and reduced delivery delays by 20%.",
-          color: "#000000",
-        },
-        {
           title: "AI Training & Evaluation Specialist (Contract)",
           company: "Outlier AI · DataAnnotation · Stellar AI",
           company_url: "",
@@ -461,8 +413,19 @@ const experience = {
           duration: "June 2024 - Present",
           location: "Remote",
           description:
-            "Evaluating LLM outputs for accuracy and safety, contributing to RLHF pipelines for model fine-tuning. Project details confidential under NDA.",
+            "Evaluating LLM outputs for accuracy, coherence, and safety — contributing to RLHF pipelines that improve model alignment. Applying domain expertise in data science, Python, and statistical reasoning to assess code generation and math problem-solving tasks.",
           color: "#0879bf",
+        },
+        {
+          title: "Data Insights & Operations Manager",
+          company: "Commodities Health Food",
+          company_url: "",
+          logo_path: "CommoditiesHealthFood.jpg",
+          duration: "Jan 2016 - Feb 2023",
+          location: "New York, NY",
+          description:
+            "Analyzed 50,000+ monthly transactions across a multi-location retail operation. Built an automated Python ML forecasting pipeline using 3+ years of historical sales data — reducing stockouts 20% and driving a 15% revenue increase. Developed demand forecasting and customer segmentation models using regression and K-Means clustering.",
+          color: "#000000",
         },
         {
           title: "Founder & Data Scientist",
@@ -472,7 +435,7 @@ const experience = {
           duration: "Jan 2024 - Present",
           location: "New York, NY · Remote",
           description:
-            "Building data science projects in public—including an AI Image Classifier and PROMETHEUS, a no-code visual web scraper tool.",
+            "Independent data science lab — building and shipping ML projects in public. Current work includes production ML pipelines, NLP tools, and open-source data science resources.",
           color: "#9b1578",
         },
       ],
@@ -481,18 +444,14 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Facilities and Operations - Volunteer",
+          title: "Facilities and Operations Volunteer",
           company: "BAPS",
           company_url: "",
           logo_path: "BAPS.png",
           duration: "June 2010 - Present",
           location: "Flushing, New York",
-          description: [
-            "Coordinating logistics and setup for community events serving 500+ attendees.",
-            " Managing facility operations including event preparation, crowd management, and cleanup.",
-            " Collaborating with diverse teams to ensure smooth execution of cultural and religious programs.",
-            " Contributing 14+ years of consistent service to the local community.",
-          ],
+          description:
+            "Coordinating logistics and setup for community events serving 500+ attendees. Managing facility operations including event preparation, crowd management, and cleanup. Contributing 14+ years of consistent service to the local community.",
         },
       ],
     },
@@ -502,7 +461,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: "",
+  description:
+    "End-to-end data science and ML projects — from causal inference pipelines to production APIs. Each project includes full source code on GitHub.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -524,12 +484,12 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "Zerol0l.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I'm available on LinkedIn, GitHub, and email. Happy to connect about data science roles, collaborations, or consulting. I'll reply within 24 hours.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Blog",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+      "I write about data science, ML engineering, and lessons learned building real-world projects.",
     link: "https://zer0sandbox-blog.vercel.app",
     avatar_image_path: "blogs_image.svg",
   },
