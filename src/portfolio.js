@@ -27,7 +27,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1dmj9YWAJ1QYTg742jSJexftz78cm43U9/view?usp=sharing",
   portfolio_repository: "https://github.com/ZeroZulu/zerozulu.github.io",
-  githubProfile: "https://github.com/ZeroZulu",
+  githubProfile: "https://github.com/ZeroZulu?tab=repositories",
 };
 
 const socialMediaLinks = [
